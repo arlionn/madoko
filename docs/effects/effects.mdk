@@ -1,0 +1,109 @@
+# 公众号和知乎排版神器 - mdnice.com 
+
+&emsp;
+
+> 连玉君 (arlionn@163.com)
+
+> Stata连享会 &emsp; [计量专题](https://gitee.com/arlionn/Course/blob/master/README.md)  || [精品课程](https://mp.weixin.qq.com/s/hWtncj56PeFNL4yg2-va0Q) || [简书推文](https://www.jianshu.com/p/de82fdc2c18a)  || [公众号合集](https://mp.weixin.qq.com/s/RwkuPpLS7bI5C5OhRqjkOw)
+
+[![点击查看完整推文列表](https://file.lianxh.cn/images/20191111/3ed0c73d48c0046f04c502458b4e1c0b.png)](https://mp.weixin.qq.com/s/RwkuPpLS7bI5C5OhRqjkOw)
+
+
+&emsp;
+
+----
+
+**目 录**
+[toc]
+
+---
+
+&emsp;
+
+## 1. 轻巧全能的 mdnice.com
+<https://mdnice.com> 是一个能够自定义样式的在线 Markdown 编辑器。
+
+打开 mdnice.com 的页面即可看到基本的 Markdown 语法说明，五分钟学会。
+
+它支持内容和自定义样式浏览器中实时保存、上传图片、脚注、公式等，输出的内容可一件复制到微信公众号、知乎、掘金、博客园和 CSDN 等一系列平台。极大的减轻了微信公众号文章的排版和编辑工作。主要特色如下：
+
+- 十几种内置样式，支持自定义样式
+- 支持微信公众号和知乎排版 - 完美呈现 LaTeX 数学公式
+- 支持开源中国、知乎、博客园和 CSDN 等多个平台
+- 内容和自定义样式浏览器中实时保存
+- 自带图床 - 可以拖拽或上传图片
+
+&emsp;
+
+## 2. mdnice.com 能干什么？
+
+- **排版微信公众号**。
+  - **用法：** 将 Markdown 推文贴入 mdnice.com 编辑器，选择右边栏「绿色微信图标」即可将渲染后的文稿复制到剪切板 (见下 **图 1**)，随后贴入微信公众号后台编辑器即可。如有需要，可以自行调整或设定图片尺寸。
+  - **数学公式完美呈现。** 对数学公式的支持无与伦比。示例：[公众号文章](https://mp.weixin.qq.com/s/9WqRJiusnM9I2m0XvW-Cmw)；[知乎文章](https://zhuanlan.zhihu.com/p/101568118)。
+  - **主题和代码样式：** mdnice.com 编辑器 **「主题」** 菜单下有多种主题可以选择，也可以自己定义主题。**「代码主题」** 菜单可以选择不同代码展示风格。
+- **写一封漂亮的邮件**，内含「条目」和「代码块」等。写完后将右侧渲染后的结果贴入邮件编辑器即可。
+- **知乎** - 写一个漂亮的提问和回答。写好问题或答案后点击 mdnice.com  页面右边栏「知乎」即可 —— **复制到知乎**，贴入知乎编辑器即可，[看这里](https://www.zhihu.com/question/359239538/answer/937510274)。
+- **写讲义**。可以随时随地打开浏览器写笔记，然后将写好的 Markdown 文本导出为 .md 文件，或者直接把文本通过微信或邮箱发送给自己。随后贴入自己的有道云笔记或简书中。
+- …… 应该还有很多，写一个试试吧
+- <https://mdnice.com/>
+
+&emsp; 
+
+## 3. 一些设定
+
+### 主题
+
+单击「**主题**」菜单，有十几种渲染风格可供选择。简要介绍几种比较有个性的。
+- **极客黑**。是我最喜欢的一种，类似高数或统计学教科书的感觉，适合包含较多教科书的推文。类似的主题还包括：「墨黑」、「默认主题」。
+- **橙心**。橙色为主，各类格式的定义都比较恰当，适合文字较多、主题比较喜庆的推文。
+- **山吹**。橘黄色为主。标题样式很有特色。
+- **简**。类似于 github 风格，极简。
+
+### 代码主题
+
+单击「**代码主题**」菜单，有多种代码主题可供选择。我平时用的比较多的是「Github」和「atom-one-dark」推文中包含代码时，就需要选择一个合适的代码主题了。
+
+### 图片
+
+mdnice.com 已经自带图床，支持拖拽和上传两种方法。完成后图片地址自动保存在剪切板上，格式为 `![](URL)`。如下两点说明：
+- **图片尺寸设置**。默认是原始大小全屏显示。可以通过如下代码更改尺寸：
+  ```Markdown
+  <img style="width: 400px" src="https://xxx.png">
+  ```
+  其中，`400px` 表示图片宽度为 400 像素，高度会按原始比例自动调整。`src="URL"` 中的 URL 表示图片的地址。
+<img style="width: 30px" src="https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/20200128120032.png"/>
+- **图床选择。** mdnice.com 是最近才有了自己的图床，为了安全起见，可以考虑把原始图片放在自己的阿里云或七牛图床上。
+
+
+### 特殊功能
+
+- **中英文混排** 自动加空格。右击编辑器空白处，选择「格式化文档」，即可将「我用Stata已经15年了」转化为「我用 Stata 已经 15 年了」。ps，亦可依次点击菜单「格式 &rarr; 格式化文档」。
+- **版本控制**。文档改变后，mdnice.com 会自动在本地保存一个新版本，因此，你可以回溯到编辑过程中的任何一个版本。单击「功能 &rarr; 本地历史」菜单可以查看历史版本，底部有四个按钮可以进行相关操作。
+- **同步滚动和图片标题**。可以通过「设置」菜单来设定。
+- **导入/导出**。单击「文件」菜单可以导入或导出 .md 文档。若需将 Markdown 文档转换为 PDF 或 Word
+ 文档，则需要使用 [Typora](https://www.typora.io/) 编辑器，或在线转换，如 [「CoolAF」](http://coolaf.com/tool/md)。
+
+&emsp;
+
+
+## 4. 一图了解 Markdown 和 mdnice.com 
+
+![](https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/mdnice.com简介截图.png)
+
+> **图 1：mdnice.com 功能一览**
+
+---
+
+&emsp;
+
+
+>### 关于我们
+
+- **Stata连享会** 由中山大学连玉君老师团队创办，定期分享实证分析经验。
+- **欢迎赐稿：** 欢迎赐稿至StataChina@163.com。录用稿件达 **三篇** 以上，即可 **免费** 获得一期 Stata 现场培训资格。
+- **往期精彩推文：**
+ [Stata绘图](https://mp.weixin.qq.com/s/xao8knOk0ulGfNc7vasfew) | [时间序列+面板数据](https://mp.weixin.qq.com/s/8yP1Dijylgreg59QIkqnMg) | [Stata资源](https://mp.weixin.qq.com/s/Kdeoi5uJyNtwwwptdQDQDQ) | [数据处理+程序](https://mp.weixin.qq.com/s/_3DQacFyy7juRjgFedp9WQ) |  [回归分析-交乘项-内生性](https://mp.weixin.qq.com/s/61qJNWnL4KRp0fbLxuDGww)
+---
+![欢迎加入Stata连享会(公众号: StataChina)](https://file.lianxh.cn/images/20191111/ec83ed2baf9c93494e4f71c9b0f5d766.png)
+
+---
